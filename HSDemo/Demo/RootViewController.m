@@ -29,6 +29,8 @@
     [_dataArray addObject:@"方法调用顺序-HSLoadViewController"];
     [_dataArray addObject:@"KVO和KVC-HSKVViewController"];
     [_dataArray addObject:@"多线程-HSThreadController"];
+    [_dataArray addObject:@"RunLoop-HSRunLoopViewController"];
+    [_dataArray addObject:@"Runtime-HSRuntimeViewController"];
     
     _myTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     _myTableView.delegate = self;

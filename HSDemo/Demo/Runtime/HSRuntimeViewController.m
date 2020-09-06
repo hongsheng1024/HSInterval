@@ -20,6 +20,9 @@
 
 
 #import "HSRuntimeViewController.h"
+#import "HSMobile.h"
+#import "HSPhone.h"
+#import "RuntimeObject.h"
 
 @interface HSRuntimeViewController ()
 
@@ -30,6 +33,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    HSPhone *hsPhone = [[HSPhone alloc]init];
+    [hsPhone test];
+    
+    RuntimeObject *obj = [[RuntimeObject alloc]init];
+    [obj otherTest];
+    
 }
 
 /*
