@@ -13,6 +13,9 @@
 		1F9C7D1622B21F8900F46A32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9C7D1422B21F8900F46A32 /* LaunchScreen.storyboard */; };
 		1F9C7D1922B21F8900F46A32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C7D1822B21F8900F46A32 /* main.m */; };
 		D06810BB250135DD009B0D2D /* HSKVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D06810BA250135DD009B0D2D /* HSKVViewController.m */; };
+		D0887B5E25051B3D00F2AB4C /* HSMobile.m in Sources */ = {isa = PBXBuildFile; fileRef = D0887B5D25051B3D00F2AB4C /* HSMobile.m */; };
+		D0887B6125051B4D00F2AB4C /* HSPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = D0887B6025051B4D00F2AB4C /* HSPhone.m */; };
+		D0887B6425052E2900F2AB4C /* RuntimeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0887B6325052E2900F2AB4C /* RuntimeObject.m */; };
 		D0D0DFAD24FF927B00259B0D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D0DFAC24FF927B00259B0D /* BaseViewController.m */; };
 		D0D0DFB024FF92A000259B0D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D0DFAF24FF92A000259B0D /* RootViewController.m */; };
 		D0D0DFB824FF935200259B0D /* HSThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D0DFB724FF935200259B0D /* HSThreadController.m */; };
@@ -47,6 +50,12 @@
 		1F9C7D1822B21F8900F46A32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D06810B9250135DD009B0D2D /* HSKVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSKVViewController.h; sourceTree = "<group>"; };
 		D06810BA250135DD009B0D2D /* HSKVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSKVViewController.m; sourceTree = "<group>"; };
+		D0887B5C25051B3D00F2AB4C /* HSMobile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSMobile.h; sourceTree = "<group>"; };
+		D0887B5D25051B3D00F2AB4C /* HSMobile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSMobile.m; sourceTree = "<group>"; };
+		D0887B5F25051B4D00F2AB4C /* HSPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSPhone.h; sourceTree = "<group>"; };
+		D0887B6025051B4D00F2AB4C /* HSPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSPhone.m; sourceTree = "<group>"; };
+		D0887B6225052E2900F2AB4C /* RuntimeObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeObject.h; sourceTree = "<group>"; };
+		D0887B6325052E2900F2AB4C /* RuntimeObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeObject.m; sourceTree = "<group>"; };
 		D0D0DFAB24FF927B00259B0D /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		D0D0DFAC24FF927B00259B0D /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		D0D0DFAE24FF92A000259B0D /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -184,6 +193,12 @@
 			children = (
 				D0D0DFC224FF939A00259B0D /* HSRuntimeViewController.h */,
 				D0D0DFC324FF939A00259B0D /* HSRuntimeViewController.m */,
+				D0887B5C25051B3D00F2AB4C /* HSMobile.h */,
+				D0887B5D25051B3D00F2AB4C /* HSMobile.m */,
+				D0887B5F25051B4D00F2AB4C /* HSPhone.h */,
+				D0887B6025051B4D00F2AB4C /* HSPhone.m */,
+				D0887B6225052E2900F2AB4C /* RuntimeObject.h */,
+				D0887B6325052E2900F2AB4C /* RuntimeObject.m */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
@@ -315,12 +330,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0D9DE092502A24F007CAC32 /* HSBlockVariable.m in Sources */,
+				D0887B6125051B4D00F2AB4C /* HSPhone.m in Sources */,
 				D0D0DFAD24FF927B00259B0D /* BaseViewController.m in Sources */,
 				D0D0DFD424FFE43200259B0D /* HSTimer.m in Sources */,
 				D0FA92C02500D65900C0B8C4 /* HSPerson.m in Sources */,
 				D0FA92C32500D66900C0B8C4 /* HSStudent.m in Sources */,
 				D0D0DFBE24FF937900259B0D /* HSBlockViewController.m in Sources */,
 				1F9C7D1922B21F8900F46A32 /* main.m in Sources */,
+				D0887B5E25051B3D00F2AB4C /* HSMobile.m in Sources */,
 				D0D9DE01250278DD007CAC32 /* HSOperation.m in Sources */,
 				D0D0DFD124FFD50400259B0D /* MJProxy1.m in Sources */,
 				D0FA92CF2500D70500C0B8C4 /* HSPerson+Test2.m in Sources */,
@@ -336,6 +353,7 @@
 				D0D9DE04250293ED007CAC32 /* HSBlock.m in Sources */,
 				D0D0DFC124FF938900259B0D /* HSRunLoopViewController.m in Sources */,
 				D0D0DFCE24FFD14D00259B0D /* HSProxy.m in Sources */,
+				D0887B6425052E2900F2AB4C /* RuntimeObject.m in Sources */,
 				D0D0DFBB24FF936F00259B0D /* HSMemoryViewController.m in Sources */,
 				1F9C7D0B22B21F8700F46A32 /* AppDelegate.m in Sources */,
 			);
