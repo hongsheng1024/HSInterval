@@ -60,6 +60,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
     NSString *msg = _dataArray[indexPath.row];
     NSString *clsMsg = [msg componentsSeparatedByString:@"-"].lastObject;
     BaseViewController *VC = [[NSClassFromString(clsMsg) alloc]init];

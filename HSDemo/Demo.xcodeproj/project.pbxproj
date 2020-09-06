@@ -24,6 +24,9 @@
 		D0D0DFCE24FFD14D00259B0D /* HSProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D0DFCC24FFD14D00259B0D /* HSProxy.m */; };
 		D0D0DFD124FFD50400259B0D /* MJProxy1.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D0DFCF24FFD50300259B0D /* MJProxy1.m */; };
 		D0D0DFD424FFE43200259B0D /* HSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D0DFD324FFE43200259B0D /* HSTimer.m */; };
+		D0D9DE01250278DD007CAC32 /* HSOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D9DE00250278DD007CAC32 /* HSOperation.m */; };
+		D0D9DE04250293ED007CAC32 /* HSBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D9DE03250293ED007CAC32 /* HSBlock.m */; };
+		D0D9DE092502A24F007CAC32 /* HSBlockVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D9DE082502A24F007CAC32 /* HSBlockVariable.m */; };
 		D0FA92BD2500D20C00C0B8C4 /* HSLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA92BC2500D20C00C0B8C4 /* HSLoadViewController.m */; };
 		D0FA92C02500D65900C0B8C4 /* HSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA92BF2500D65900C0B8C4 /* HSPerson.m */; };
 		D0FA92C32500D66900C0B8C4 /* HSStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA92C22500D66900C0B8C4 /* HSStudent.m */; };
@@ -66,6 +69,14 @@
 		D0D0DFD024FFD50400259B0D /* MJProxy1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProxy1.h; sourceTree = "<group>"; };
 		D0D0DFD224FFE43200259B0D /* HSTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSTimer.h; sourceTree = "<group>"; };
 		D0D0DFD324FFE43200259B0D /* HSTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSTimer.m; sourceTree = "<group>"; };
+		D0D9DDFF250278DD007CAC32 /* HSOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSOperation.h; sourceTree = "<group>"; };
+		D0D9DE00250278DD007CAC32 /* HSOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSOperation.m; sourceTree = "<group>"; };
+		D0D9DE02250293ED007CAC32 /* HSBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSBlock.h; sourceTree = "<group>"; };
+		D0D9DE03250293ED007CAC32 /* HSBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSBlock.m; sourceTree = "<group>"; };
+		D0D9DE05250295D6007CAC32 /* HSBlock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HSBlock.cpp; sourceTree = "<group>"; };
+		D0D9DE072502A24F007CAC32 /* HSBlockVariable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSBlockVariable.h; sourceTree = "<group>"; };
+		D0D9DE082502A24F007CAC32 /* HSBlockVariable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSBlockVariable.m; sourceTree = "<group>"; };
+		D0D9DE0A2502A632007CAC32 /* HSBlockVariable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HSBlockVariable.cpp; sourceTree = "<group>"; };
 		D0FA92BB2500D20C00C0B8C4 /* HSLoadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSLoadViewController.h; sourceTree = "<group>"; };
 		D0FA92BC2500D20C00C0B8C4 /* HSLoadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSLoadViewController.m; sourceTree = "<group>"; };
 		D0FA92BE2500D65900C0B8C4 /* HSPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSPerson.h; sourceTree = "<group>"; };
@@ -149,6 +160,12 @@
 			children = (
 				D0D0DFBC24FF937900259B0D /* HSBlockViewController.h */,
 				D0D0DFBD24FF937900259B0D /* HSBlockViewController.m */,
+				D0D9DE02250293ED007CAC32 /* HSBlock.h */,
+				D0D9DE03250293ED007CAC32 /* HSBlock.m */,
+				D0D9DE05250295D6007CAC32 /* HSBlock.cpp */,
+				D0D9DE072502A24F007CAC32 /* HSBlockVariable.h */,
+				D0D9DE082502A24F007CAC32 /* HSBlockVariable.m */,
+				D0D9DE0A2502A632007CAC32 /* HSBlockVariable.cpp */,
 			);
 			path = Block;
 			sourceTree = "<group>";
@@ -185,6 +202,8 @@
 			children = (
 				D0D0DFB624FF935200259B0D /* HSThreadController.h */,
 				D0D0DFB724FF935200259B0D /* HSThreadController.m */,
+				D0D9DDFF250278DD007CAC32 /* HSOperation.h */,
+				D0D9DE00250278DD007CAC32 /* HSOperation.m */,
 			);
 			path = "多线程";
 			sourceTree = "<group>";
@@ -295,12 +314,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D9DE092502A24F007CAC32 /* HSBlockVariable.m in Sources */,
 				D0D0DFAD24FF927B00259B0D /* BaseViewController.m in Sources */,
 				D0D0DFD424FFE43200259B0D /* HSTimer.m in Sources */,
 				D0FA92C02500D65900C0B8C4 /* HSPerson.m in Sources */,
 				D0FA92C32500D66900C0B8C4 /* HSStudent.m in Sources */,
 				D0D0DFBE24FF937900259B0D /* HSBlockViewController.m in Sources */,
 				1F9C7D1922B21F8900F46A32 /* main.m in Sources */,
+				D0D9DE01250278DD007CAC32 /* HSOperation.m in Sources */,
 				D0D0DFD124FFD50400259B0D /* MJProxy1.m in Sources */,
 				D0FA92CF2500D70500C0B8C4 /* HSPerson+Test2.m in Sources */,
 				D0FA92CC2500D6F500C0B8C4 /* HSPerson+Test1.m in Sources */,
@@ -312,6 +333,7 @@
 				D0D0DFB024FF92A000259B0D /* RootViewController.m in Sources */,
 				D0D0DFC424FF939A00259B0D /* HSRuntimeViewController.m in Sources */,
 				D0D0DFB824FF935200259B0D /* HSThreadController.m in Sources */,
+				D0D9DE04250293ED007CAC32 /* HSBlock.m in Sources */,
 				D0D0DFC124FF938900259B0D /* HSRunLoopViewController.m in Sources */,
 				D0D0DFCE24FFD14D00259B0D /* HSProxy.m in Sources */,
 				D0D0DFBB24FF936F00259B0D /* HSMemoryViewController.m in Sources */,

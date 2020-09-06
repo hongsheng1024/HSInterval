@@ -50,6 +50,7 @@
 
 #pragma mark - 定时器
 - (void)memoryLeakForTimer{
+   
     //1、这种方法会产生循环引用 self -> timer -> self
     //self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(timerTest) userInfo:nil repeats:YES];
     
