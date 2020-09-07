@@ -23,6 +23,7 @@
 #import "HSMobile.h"
 #import "HSPhone.h"
 #import "RuntimeObject.h"
+#import "HSMobile+Test1.h"
 
 @interface HSRuntimeViewController ()
 
@@ -34,11 +35,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    HSPhone *hsPhone = [[HSPhone alloc]init];
-    [hsPhone test];
+    //HSPhone *hsPhone = [[HSPhone alloc]init];
+    //[hsPhone test];
     
-    RuntimeObject *obj = [[RuntimeObject alloc]init];
-    [obj otherTest];
+    //RuntimeObject *obj = [[RuntimeObject alloc]init];
+    //[obj otherTest];
+    
+    HSMobile *hsMobile = [[HSMobile alloc]init];
+    hsMobile.name = @"张三";
+    NSLog(@"%@", hsMobile.name);
+    
     
 }
 

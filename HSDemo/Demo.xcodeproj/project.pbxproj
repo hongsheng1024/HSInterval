@@ -16,6 +16,7 @@
 		D0887B5E25051B3D00F2AB4C /* HSMobile.m in Sources */ = {isa = PBXBuildFile; fileRef = D0887B5D25051B3D00F2AB4C /* HSMobile.m */; };
 		D0887B6125051B4D00F2AB4C /* HSPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = D0887B6025051B4D00F2AB4C /* HSPhone.m */; };
 		D0887B6425052E2900F2AB4C /* RuntimeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0887B6325052E2900F2AB4C /* RuntimeObject.m */; };
+		D0887B672505B56300F2AB4C /* HSMobile+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = D0887B662505B56300F2AB4C /* HSMobile+Test1.m */; };
 		D0D0DFAD24FF927B00259B0D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D0DFAC24FF927B00259B0D /* BaseViewController.m */; };
 		D0D0DFB024FF92A000259B0D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D0DFAF24FF92A000259B0D /* RootViewController.m */; };
 		D0D0DFB824FF935200259B0D /* HSThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D0DFB724FF935200259B0D /* HSThreadController.m */; };
@@ -56,6 +57,8 @@
 		D0887B6025051B4D00F2AB4C /* HSPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSPhone.m; sourceTree = "<group>"; };
 		D0887B6225052E2900F2AB4C /* RuntimeObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeObject.h; sourceTree = "<group>"; };
 		D0887B6325052E2900F2AB4C /* RuntimeObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeObject.m; sourceTree = "<group>"; };
+		D0887B652505B56300F2AB4C /* HSMobile+Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HSMobile+Test1.h"; sourceTree = "<group>"; };
+		D0887B662505B56300F2AB4C /* HSMobile+Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HSMobile+Test1.m"; sourceTree = "<group>"; };
 		D0D0DFAB24FF927B00259B0D /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		D0D0DFAC24FF927B00259B0D /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		D0D0DFAE24FF92A000259B0D /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -199,6 +202,8 @@
 				D0887B6025051B4D00F2AB4C /* HSPhone.m */,
 				D0887B6225052E2900F2AB4C /* RuntimeObject.h */,
 				D0887B6325052E2900F2AB4C /* RuntimeObject.m */,
+				D0887B652505B56300F2AB4C /* HSMobile+Test1.h */,
+				D0887B662505B56300F2AB4C /* HSMobile+Test1.m */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
@@ -343,6 +348,7 @@
 				D0FA92CF2500D70500C0B8C4 /* HSPerson+Test2.m in Sources */,
 				D0FA92CC2500D6F500C0B8C4 /* HSPerson+Test1.m in Sources */,
 				D0FA92D22500D71300C0B8C4 /* HSStudent+Test1.m in Sources */,
+				D0887B672505B56300F2AB4C /* HSMobile+Test1.m in Sources */,
 				D0FA92D52500D71C00C0B8C4 /* HSStudent+Test2.m in Sources */,
 				D06810BB250135DD009B0D2D /* HSKVViewController.m in Sources */,
 				D0FA92BD2500D20C00C0B8C4 /* HSLoadViewController.m in Sources */,
