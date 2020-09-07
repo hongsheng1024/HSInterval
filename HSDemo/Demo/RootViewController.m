@@ -31,6 +31,7 @@
     [_dataArray addObject:@"多线程-HSThreadController"];
     [_dataArray addObject:@"RunLoop-HSRunLoopViewController"];
     [_dataArray addObject:@"Runtime-HSRuntimeViewController"];
+    [_dataArray addObject:@"UI操作-HSUIViewController"];
     
     _myTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     _myTableView.delegate = self;
