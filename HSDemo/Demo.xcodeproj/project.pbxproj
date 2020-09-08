@@ -12,6 +12,8 @@
 		1F9C7D1322B21F8900F46A32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9C7D1222B21F8900F46A32 /* Assets.xcassets */; };
 		1F9C7D1622B21F8900F46A32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9C7D1422B21F8900F46A32 /* LaunchScreen.storyboard */; };
 		1F9C7D1922B21F8900F46A32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C7D1822B21F8900F46A32 /* main.m */; };
+		D013F0E72507217400027D44 /* HSThread.m in Sources */ = {isa = PBXBuildFile; fileRef = D013F0E62507217400027D44 /* HSThread.m */; };
+		D013F0EA250741BC00027D44 /* HSPermenantThread.m in Sources */ = {isa = PBXBuildFile; fileRef = D013F0E9250741BC00027D44 /* HSPermenantThread.m */; };
 		D06810BB250135DD009B0D2D /* HSKVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D06810BA250135DD009B0D2D /* HSKVViewController.m */; };
 		D0887B5E25051B3D00F2AB4C /* HSMobile.m in Sources */ = {isa = PBXBuildFile; fileRef = D0887B5D25051B3D00F2AB4C /* HSMobile.m */; };
 		D0887B6125051B4D00F2AB4C /* HSPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = D0887B6025051B4D00F2AB4C /* HSPhone.m */; };
@@ -53,6 +55,10 @@
 		1F9C7D1522B21F8900F46A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F9C7D1722B21F8900F46A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F9C7D1822B21F8900F46A32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D013F0E52507217400027D44 /* HSThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSThread.h; sourceTree = "<group>"; };
+		D013F0E62507217400027D44 /* HSThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSThread.m; sourceTree = "<group>"; };
+		D013F0E8250741BC00027D44 /* HSPermenantThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSPermenantThread.h; sourceTree = "<group>"; };
+		D013F0E9250741BC00027D44 /* HSPermenantThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSPermenantThread.m; sourceTree = "<group>"; };
 		D06810B9250135DD009B0D2D /* HSKVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSKVViewController.h; sourceTree = "<group>"; };
 		D06810BA250135DD009B0D2D /* HSKVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSKVViewController.m; sourceTree = "<group>"; };
 		D0887B5C25051B3D00F2AB4C /* HSMobile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSMobile.h; sourceTree = "<group>"; };
@@ -241,6 +247,10 @@
 			children = (
 				D0D0DFBF24FF938900259B0D /* HSRunLoopViewController.h */,
 				D0D0DFC024FF938900259B0D /* HSRunLoopViewController.m */,
+				D013F0E52507217400027D44 /* HSThread.h */,
+				D013F0E62507217400027D44 /* HSThread.m */,
+				D013F0E8250741BC00027D44 /* HSPermenantThread.h */,
+				D013F0E9250741BC00027D44 /* HSPermenantThread.m */,
 			);
 			path = RunLoop;
 			sourceTree = "<group>";
@@ -379,6 +389,7 @@
 				D0FA92CC2500D6F500C0B8C4 /* HSPerson+Test1.m in Sources */,
 				D0FA92D22500D71300C0B8C4 /* HSStudent+Test1.m in Sources */,
 				D0887B672505B56300F2AB4C /* HSMobile+Test1.m in Sources */,
+				D013F0E72507217400027D44 /* HSThread.m in Sources */,
 				D0FA92D52500D71C00C0B8C4 /* HSStudent+Test2.m in Sources */,
 				D06810BB250135DD009B0D2D /* HSKVViewController.m in Sources */,
 				D0FA92BD2500D20C00C0B8C4 /* HSLoadViewController.m in Sources */,
@@ -388,6 +399,7 @@
 				D0D0DFB824FF935200259B0D /* HSThreadController.m in Sources */,
 				D0D9DE04250293ED007CAC32 /* HSBlock.m in Sources */,
 				D0D0DFC124FF938900259B0D /* HSRunLoopViewController.m in Sources */,
+				D013F0EA250741BC00027D44 /* HSPermenantThread.m in Sources */,
 				D0D0DFCE24FFD14D00259B0D /* HSProxy.m in Sources */,
 				D0E40C8D25065C6B0041A43C /* MObserver.m in Sources */,
 				D0887B6425052E2900F2AB4C /* RuntimeObject.m in Sources */,
