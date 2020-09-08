@@ -7,6 +7,8 @@
 //
 
 #import "HSKVViewController.h"
+#import "MObject.h"
+#import "MObserver.h"
 
 @interface HSKVViewController ()
 
@@ -17,6 +19,32 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    MObject *obj = [[MObject alloc]init];
+    MObserver *observer = [[MObserver alloc]init];
+    
+    //调用KVO方法监听obj的value属性的变化
+    [obj addObserver:observer forKeyPath:@"value"
+             options:NSKeyValueObservingOptionNew context:NULL];
+    
+    //通过setter方法修改value
+    obj.value = 1;
+    
+    /*
+     使用setter方法改变值KVO才会生效；
+     使用setValue:forKey: 改变值KVO才会生效；
+     成员变量直接修改需手动添加两个方法KVO才会生效;
+     willChangeValueForKey:
+     didChangeValueForKey:
+     
+     */
+    
+    //1、通过kvc设置value能否生效？ 可以
+    [obj setValue:@"2" forKey:@"value"];
+    
+    //2、通过成员变量直接复制value能否生效？
+    [obj increase];
+    
 }
 
 /*

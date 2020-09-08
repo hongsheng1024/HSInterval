@@ -5,6 +5,12 @@
 //  Created by FaceBook on 2020/9/7.
 //  Copyright © 2020 whs. All rights reserved.
 //
+/*
+ 关联对象的本质
+ 关联对象由AssociationsManager管理并在AssociationsHashMap存储
+ 所有对象的关联内容都在同一个全局容器中
+ 
+ */
 
 #import "HSMobile+Test1.h"
 #import <objc/message.h>

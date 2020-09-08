@@ -33,6 +33,8 @@
 		D0D9DE01250278DD007CAC32 /* HSOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D9DE00250278DD007CAC32 /* HSOperation.m */; };
 		D0D9DE04250293ED007CAC32 /* HSBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D9DE03250293ED007CAC32 /* HSBlock.m */; };
 		D0D9DE092502A24F007CAC32 /* HSBlockVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D9DE082502A24F007CAC32 /* HSBlockVariable.m */; };
+		D0E40C8A25065C5C0041A43C /* MObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E40C8925065C5C0041A43C /* MObject.m */; };
+		D0E40C8D25065C6B0041A43C /* MObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E40C8C25065C6B0041A43C /* MObserver.m */; };
 		D0FA92BD2500D20C00C0B8C4 /* HSLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA92BC2500D20C00C0B8C4 /* HSLoadViewController.m */; };
 		D0FA92C02500D65900C0B8C4 /* HSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA92BF2500D65900C0B8C4 /* HSPerson.m */; };
 		D0FA92C32500D66900C0B8C4 /* HSStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA92C22500D66900C0B8C4 /* HSStudent.m */; };
@@ -95,6 +97,10 @@
 		D0D9DE072502A24F007CAC32 /* HSBlockVariable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSBlockVariable.h; sourceTree = "<group>"; };
 		D0D9DE082502A24F007CAC32 /* HSBlockVariable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSBlockVariable.m; sourceTree = "<group>"; };
 		D0D9DE0A2502A632007CAC32 /* HSBlockVariable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HSBlockVariable.cpp; sourceTree = "<group>"; };
+		D0E40C8825065C5C0041A43C /* MObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MObject.h; sourceTree = "<group>"; };
+		D0E40C8925065C5C0041A43C /* MObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MObject.m; sourceTree = "<group>"; };
+		D0E40C8B25065C6B0041A43C /* MObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MObserver.h; sourceTree = "<group>"; };
+		D0E40C8C25065C6B0041A43C /* MObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MObserver.m; sourceTree = "<group>"; };
 		D0FA92BB2500D20C00C0B8C4 /* HSLoadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSLoadViewController.h; sourceTree = "<group>"; };
 		D0FA92BC2500D20C00C0B8C4 /* HSLoadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSLoadViewController.m; sourceTree = "<group>"; };
 		D0FA92BE2500D65900C0B8C4 /* HSPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSPerson.h; sourceTree = "<group>"; };
@@ -170,6 +176,10 @@
 			children = (
 				D06810B9250135DD009B0D2D /* HSKVViewController.h */,
 				D06810BA250135DD009B0D2D /* HSKVViewController.m */,
+				D0E40C8825065C5C0041A43C /* MObject.h */,
+				D0E40C8925065C5C0041A43C /* MObject.m */,
+				D0E40C8B25065C6B0041A43C /* MObserver.h */,
+				D0E40C8C25065C6B0041A43C /* MObserver.m */,
 			);
 			path = "KVO和KVC";
 			sourceTree = "<group>";
@@ -359,6 +369,7 @@
 				D0FA92C02500D65900C0B8C4 /* HSPerson.m in Sources */,
 				D0FA92C32500D66900C0B8C4 /* HSStudent.m in Sources */,
 				D0D0DFBE24FF937900259B0D /* HSBlockViewController.m in Sources */,
+				D0E40C8A25065C5C0041A43C /* MObject.m in Sources */,
 				1F9C7D1922B21F8900F46A32 /* main.m in Sources */,
 				D0887B5E25051B3D00F2AB4C /* HSMobile.m in Sources */,
 				D0D9DE01250278DD007CAC32 /* HSOperation.m in Sources */,
@@ -378,6 +389,7 @@
 				D0D9DE04250293ED007CAC32 /* HSBlock.m in Sources */,
 				D0D0DFC124FF938900259B0D /* HSRunLoopViewController.m in Sources */,
 				D0D0DFCE24FFD14D00259B0D /* HSProxy.m in Sources */,
+				D0E40C8D25065C6B0041A43C /* MObserver.m in Sources */,
 				D0887B6425052E2900F2AB4C /* RuntimeObject.m in Sources */,
 				D0D0DFBB24FF936F00259B0D /* HSMemoryViewController.m in Sources */,
 				D0887B6E2505FFB500F2AB4C /* HSButton.m in Sources */,
