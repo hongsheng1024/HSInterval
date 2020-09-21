@@ -20,8 +20,45 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self hitTest];
+    [self addImv02];
+    //[self hitTest];
 }
+
+
+#pragma mark - 圆角
+//使用贝塞尔曲线UIBezierPath和Core Graphics框架画出一个圆角
+- (void)addImv01{
+    UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(50, 100, 300, 200)];
+    imageView.image = [UIImage imageNamed:@"001"];
+    //开始对imageView进行画图
+    UIGraphicsBeginImageContextWithOptions(imageView.bounds.size, NO, 1.0);
+    //使用贝塞尔曲线画出一个圆形图
+    [[UIBezierPath bezierPathWithRoundedRect:imageView.bounds cornerRadius:imageView.frame.size.width] addClip];
+    [imageView drawRect:imageView.bounds];
+
+    imageView.image = UIGraphicsGetImageFromCurrentImageContext();
+     //结束画图
+    UIGraphicsEndImageContext();
+    [self.view addSubview:imageView];
+    
+}
+//使用CAShapeLayer和UIBezierPath设置圆角
+//对内存的消耗最少啊，而且渲染快速
+- (void)addImv02{
+    UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    imageView.image = [UIImage imageNamed:@"001"];
+    UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:imageView.bounds byRoundingCorners:UIRectCornerAllCorners cornerRadii:imageView.bounds.size];
+    
+    CAShapeLayer *maskLayer = [[CAShapeLayer alloc]init];
+    //设置大小
+    maskLayer.frame = imageView.bounds;
+    //设置图形样子
+    maskLayer.path = maskPath.CGPath;
+    imageView.layer.mask = maskLayer;
+    [self.view addSubview:imageView];
+}
+
+
 
 #pragma mark - 事件响应 方形按钮圆形区域响应点击事件
 - (void)hitTest{

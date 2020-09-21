@@ -78,6 +78,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    [self performSelector:@selector(runTest) withObject:nil afterDelay:2.0];
+    
     
     _textView = [[UITextView alloc]initWithFrame:CGRectMake(100, 100, 100, 150)];
     _textView.backgroundColor = [UIColor cyanColor];
@@ -138,7 +140,7 @@
     }];
     [self.hsThread start];
     
-    
+   
     
 }
 

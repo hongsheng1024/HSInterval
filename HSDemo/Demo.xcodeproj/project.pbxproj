@@ -14,6 +14,7 @@
 		1F9C7D1922B21F8900F46A32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C7D1822B21F8900F46A32 /* main.m */; };
 		D013F0E72507217400027D44 /* HSThread.m in Sources */ = {isa = PBXBuildFile; fileRef = D013F0E62507217400027D44 /* HSThread.m */; };
 		D013F0EA250741BC00027D44 /* HSPermenantThread.m in Sources */ = {isa = PBXBuildFile; fileRef = D013F0E9250741BC00027D44 /* HSPermenantThread.m */; };
+		D013F0EE25075B5400027D44 /* HSSFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D013F0ED25075B5400027D44 /* HSSFViewController.m */; };
 		D06810BB250135DD009B0D2D /* HSKVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D06810BA250135DD009B0D2D /* HSKVViewController.m */; };
 		D0887B5E25051B3D00F2AB4C /* HSMobile.m in Sources */ = {isa = PBXBuildFile; fileRef = D0887B5D25051B3D00F2AB4C /* HSMobile.m */; };
 		D0887B6125051B4D00F2AB4C /* HSPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = D0887B6025051B4D00F2AB4C /* HSPhone.m */; };
@@ -44,6 +45,7 @@
 		D0FA92CF2500D70500C0B8C4 /* HSPerson+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA92CE2500D70500C0B8C4 /* HSPerson+Test2.m */; };
 		D0FA92D22500D71300C0B8C4 /* HSStudent+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA92D12500D71300C0B8C4 /* HSStudent+Test1.m */; };
 		D0FA92D52500D71C00C0B8C4 /* HSStudent+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA92D42500D71C00C0B8C4 /* HSStudent+Test2.m */; };
+		D0FCD74D251869B2008490E2 /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FCD74C251869B2008490E2 /* 001.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +61,8 @@
 		D013F0E62507217400027D44 /* HSThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSThread.m; sourceTree = "<group>"; };
 		D013F0E8250741BC00027D44 /* HSPermenantThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSPermenantThread.h; sourceTree = "<group>"; };
 		D013F0E9250741BC00027D44 /* HSPermenantThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSPermenantThread.m; sourceTree = "<group>"; };
+		D013F0EC25075B5300027D44 /* HSSFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSSFViewController.h; sourceTree = "<group>"; };
+		D013F0ED25075B5400027D44 /* HSSFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSSFViewController.m; sourceTree = "<group>"; };
 		D06810B9250135DD009B0D2D /* HSKVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSKVViewController.h; sourceTree = "<group>"; };
 		D06810BA250135DD009B0D2D /* HSKVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSKVViewController.m; sourceTree = "<group>"; };
 		D0887B5C25051B3D00F2AB4C /* HSMobile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSMobile.h; sourceTree = "<group>"; };
@@ -121,6 +125,7 @@
 		D0FA92D12500D71300C0B8C4 /* HSStudent+Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HSStudent+Test1.m"; sourceTree = "<group>"; };
 		D0FA92D32500D71C00C0B8C4 /* HSStudent+Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HSStudent+Test2.h"; sourceTree = "<group>"; };
 		D0FA92D42500D71C00C0B8C4 /* HSStudent+Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HSStudent+Test2.m"; sourceTree = "<group>"; };
+		D0FCD74C251869B2008490E2 /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +164,8 @@
 				D0D0DFAC24FF927B00259B0D /* BaseViewController.m */,
 				D0D0DFAE24FF92A000259B0D /* RootViewController.h */,
 				D0D0DFAF24FF92A000259B0D /* RootViewController.m */,
+				D0FCD74B25186924008490E2 /* Resource */,
+				D013F0EB25075AF500027D44 /* 基本算法 */,
 				D0887B682505FF5E00F2AB4C /* UI操作 */,
 				D06810B8250135CC009B0D2D /* KVO和KVC */,
 				D0FA92BA2500D15800C0B8C4 /* 方法调用顺序 */,
@@ -175,6 +182,15 @@
 				1F9C7D1822B21F8900F46A32 /* main.m */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		D013F0EB25075AF500027D44 /* 基本算法 */ = {
+			isa = PBXGroup;
+			children = (
+				D013F0EC25075B5300027D44 /* HSSFViewController.h */,
+				D013F0ED25075B5400027D44 /* HSSFViewController.m */,
+			);
+			path = "基本算法";
 			sourceTree = "<group>";
 		};
 		D06810B8250135CC009B0D2D /* KVO和KVC */ = {
@@ -302,6 +318,14 @@
 			path = "方法调用顺序";
 			sourceTree = "<group>";
 		};
+		D0FCD74B25186924008490E2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D0FCD74C251869B2008490E2 /* 001.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -362,6 +386,7 @@
 				1F9C7D1622B21F8900F46A32 /* LaunchScreen.storyboard in Resources */,
 				1F9C7D1322B21F8900F46A32 /* Assets.xcassets in Resources */,
 				1F9C7D1122B21F8700F46A32 /* Main.storyboard in Resources */,
+				D0FCD74D251869B2008490E2 /* 001.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +417,7 @@
 				D013F0E72507217400027D44 /* HSThread.m in Sources */,
 				D0FA92D52500D71C00C0B8C4 /* HSStudent+Test2.m in Sources */,
 				D06810BB250135DD009B0D2D /* HSKVViewController.m in Sources */,
+				D013F0EE25075B5400027D44 /* HSSFViewController.m in Sources */,
 				D0FA92BD2500D20C00C0B8C4 /* HSLoadViewController.m in Sources */,
 				D0D0DFCB24FFD11F00259B0D /* HSTimerViewController.m in Sources */,
 				D0D0DFB024FF92A000259B0D /* RootViewController.m in Sources */,
