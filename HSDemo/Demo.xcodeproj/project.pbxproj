@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		069C72982573DA0000D31CFC /* HSDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069C72972573DA0000D31CFC /* HSDrawViewController.m */; };
+		069C729C2573DEF500D31CFC /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 069C729A2573DEF500D31CFC /* UIViewExt.m */; };
 		1F9C7D0B22B21F8700F46A32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C7D0A22B21F8700F46A32 /* AppDelegate.m */; };
 		1F9C7D1122B21F8700F46A32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9C7D0F22B21F8700F46A32 /* Main.storyboard */; };
 		1F9C7D1322B21F8900F46A32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9C7D1222B21F8900F46A32 /* Assets.xcassets */; };
@@ -46,9 +48,14 @@
 		D0FA92D22500D71300C0B8C4 /* HSStudent+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA92D12500D71300C0B8C4 /* HSStudent+Test1.m */; };
 		D0FA92D52500D71C00C0B8C4 /* HSStudent+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA92D42500D71C00C0B8C4 /* HSStudent+Test2.m */; };
 		D0FCD74D251869B2008490E2 /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FCD74C251869B2008490E2 /* 001.png */; };
+		F63C036E1C6AA0A86EC273E6 /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D945A84B44F1854DBF891F /* libPods-Demo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		069C72962573DA0000D31CFC /* HSDrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSDrawViewController.h; sourceTree = "<group>"; };
+		069C72972573DA0000D31CFC /* HSDrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSDrawViewController.m; sourceTree = "<group>"; };
+		069C729A2573DEF500D31CFC /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		069C729B2573DEF500D31CFC /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
 		1F9C7D0622B21F8700F46A32 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9C7D0922B21F8700F46A32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F9C7D0A22B21F8700F46A32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,6 +64,8 @@
 		1F9C7D1522B21F8900F46A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F9C7D1722B21F8900F46A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F9C7D1822B21F8900F46A32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83D945A84B44F1854DBF891F /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA4341E539150236B3F8D1B /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		D013F0E52507217400027D44 /* HSThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSThread.h; sourceTree = "<group>"; };
 		D013F0E62507217400027D44 /* HSThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSThread.m; sourceTree = "<group>"; };
 		D013F0E8250741BC00027D44 /* HSPermenantThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSPermenantThread.h; sourceTree = "<group>"; };
@@ -126,6 +135,7 @@
 		D0FA92D32500D71C00C0B8C4 /* HSStudent+Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HSStudent+Test2.h"; sourceTree = "<group>"; };
 		D0FA92D42500D71C00C0B8C4 /* HSStudent+Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HSStudent+Test2.m"; sourceTree = "<group>"; };
 		D0FCD74C251869B2008490E2 /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
+		EEB28CB9B3335A25568367DF /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,17 +143,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F63C036E1C6AA0A86EC273E6 /* libPods-Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		069C72952573D9D200D31CFC /* 画图 */ = {
+			isa = PBXGroup;
+			children = (
+				069C72962573DA0000D31CFC /* HSDrawViewController.h */,
+				069C72972573DA0000D31CFC /* HSDrawViewController.m */,
+			);
+			path = "画图";
+			sourceTree = "<group>";
+		};
+		069C72992573DEC800D31CFC /* Untils */ = {
+			isa = PBXGroup;
+			children = (
+				069C729B2573DEF500D31CFC /* UIViewExt.h */,
+				069C729A2573DEF500D31CFC /* UIViewExt.m */,
+			);
+			path = Untils;
+			sourceTree = "<group>";
+		};
 		1F9C7CFD22B21F8700F46A32 = {
 			isa = PBXGroup;
 			children = (
 				1F9C7D0822B21F8700F46A32 /* Demo */,
 				1F9C7D0722B21F8700F46A32 /* Products */,
+				7B8B180D6EE75064F7252A24 /* Pods */,
+				4FF8C26E33A9D40E540B6B1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,6 +195,8 @@
 				D0D0DFAC24FF927B00259B0D /* BaseViewController.m */,
 				D0D0DFAE24FF92A000259B0D /* RootViewController.h */,
 				D0D0DFAF24FF92A000259B0D /* RootViewController.m */,
+				069C72992573DEC800D31CFC /* Untils */,
+				069C72952573D9D200D31CFC /* 画图 */,
 				D0FCD74B25186924008490E2 /* Resource */,
 				D013F0EB25075AF500027D44 /* 基本算法 */,
 				D0887B682505FF5E00F2AB4C /* UI操作 */,
@@ -182,6 +215,23 @@
 				1F9C7D1822B21F8900F46A32 /* main.m */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		4FF8C26E33A9D40E540B6B1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83D945A84B44F1854DBF891F /* libPods-Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B8B180D6EE75064F7252A24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAA4341E539150236B3F8D1B /* Pods-Demo.debug.xcconfig */,
+				EEB28CB9B3335A25568367DF /* Pods-Demo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		D013F0EB25075AF500027D44 /* 基本算法 */ = {
@@ -333,9 +383,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F9C7D1C22B21F8900F46A32 /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
+				226126BB20397DE1FDFA760F /* [CP] Check Pods Manifest.lock */,
 				1F9C7D0222B21F8700F46A32 /* Sources */,
 				1F9C7D0322B21F8700F46A32 /* Frameworks */,
 				1F9C7D0422B21F8700F46A32 /* Resources */,
+				6A8595BD9FD9762D02A38A7B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -392,15 +444,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		226126BB20397DE1FDFA760F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A8595BD9FD9762D02A38A7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F9C7D0222B21F8700F46A32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D0D9DE092502A24F007CAC32 /* HSBlockVariable.m in Sources */,
+				069C72982573DA0000D31CFC /* HSDrawViewController.m in Sources */,
 				D0887B6125051B4D00F2AB4C /* HSPhone.m in Sources */,
 				D0D0DFAD24FF927B00259B0D /* BaseViewController.m in Sources */,
 				D0D0DFD424FFE43200259B0D /* HSTimer.m in Sources */,
+				069C729C2573DEF500D31CFC /* UIViewExt.m in Sources */,
 				D0FA92C02500D65900C0B8C4 /* HSPerson.m in Sources */,
 				D0FA92C32500D66900C0B8C4 /* HSStudent.m in Sources */,
 				D0D0DFBE24FF937900259B0D /* HSBlockViewController.m in Sources */,
@@ -571,6 +667,7 @@
 		};
 		1F9C7D1D22B21F8900F46A32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA4341E539150236B3F8D1B /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Zhou Wei (H56P2X35C5)";
@@ -601,6 +698,7 @@
 		};
 		1F9C7D1E22B21F8900F46A32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEB28CB9B3335A25568367DF /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Zhou Wei (H56P2X35C5)";

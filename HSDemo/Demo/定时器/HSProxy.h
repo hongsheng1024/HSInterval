@@ -34,7 +34,8 @@ NS_ASSUME_NONNULL_END
  
  
  如果继承了NSObject 使用isKindOfClass返回0；
- 如果继承了NSProxy 使用isKindOfClass返回1；target意义就变了。
+ 如果继承了NSProxy 使用isKindOfClass返回1；
+ target意义就变了。
  
  ViewController *vc = [[ViewController alloc] init];
  

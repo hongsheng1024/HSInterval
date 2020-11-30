@@ -7,6 +7,7 @@
 //  测试localDevelop分支
 
 #import "RootViewController.h"
+#import <MJRefresh/MJRefresh.h>
 
 @interface RootViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -32,6 +33,7 @@
     [_dataArray addObject:@"RunLoop-HSRunLoopViewController"];
     [_dataArray addObject:@"Runtime-HSRuntimeViewController"];
     [_dataArray addObject:@"UI操作-HSUIViewController"];
+    [_dataArray addObject:@"画图-HSDrawViewController"];
     
     _myTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     _myTableView.delegate = self;
