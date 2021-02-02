@@ -92,11 +92,9 @@
         aPath.lineWidth = 5.0;
         aPath.lineCapStyle = kCGLineCapRound; //线条拐角
         aPath.lineJoinStyle = kCGLineCapRound; //终点处理
-        [aPath moveToPoint:CGPointMake(20, 300)];
-        [aPath addLineToPoint:CGPointMake(80, 300)];
-        [aPath addLineToPoint:CGPointMake(80, 350)];
-        //[aPath addQuadCurveToPoint:CGPointMake(120, 300) controlPoint:CGPointMake(70, 200)];
-        //[aPath closePath];
+        [aPath moveToPoint:CGPointMake(0, 200)];
+        [aPath addQuadCurveToPoint:CGPointMake(100, 100) controlPoint:CGPointMake(0, 100)];
+        [aPath closePath];
         
         CAShapeLayer *CurvedLineLayer=[CAShapeLayer layer];
         CurvedLineLayer.path=aPath.CGPath;

@@ -34,6 +34,8 @@
     [_dataArray addObject:@"Runtime-HSRuntimeViewController"];
     [_dataArray addObject:@"UI操作-HSUIViewController"];
     [_dataArray addObject:@"画图-HSDrawViewController"];
+    [_dataArray addObject:@"手势讲解-GesViewController"];
+    [_dataArray addObject:@"图文混排-GraphicMixedViewController"];
     
     _myTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     _myTableView.delegate = self;

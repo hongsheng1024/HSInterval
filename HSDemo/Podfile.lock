@@ -15,20 +15,24 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - MJRefresh (3.5.0)
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - AFNetworking (~> 4.0.1)
   - MJRefresh (~> 3.5.0)
+  - YYText
 
 SPEC REPOS:
   trunk:
     - AFNetworking
     - MJRefresh
+    - YYText
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: e9acda86b8eb26bb618aa65a6e5cfd38255f130d
+PODFILE CHECKSUM: b0f5c1dfcdb780cb9b4f37128d4e275bcb9cfd84
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.9.3
